@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="500a5bc5-2140-4194-81eb-e5b56ade9047" name="Default Changelist" comment="优化access token">
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/controllers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/controllers/controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/models/db_dump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/static/description/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/views/db_backup_scheduler_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/views/res_config_settings_db_backup_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/db_backup/views/templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/controllers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/controllers/portal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/controllers/rating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/data/digest_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/data/helpdesk_cron.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/data/helpdesk_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/data/helpdesk_demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/data/mail_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/af.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/am.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ar.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/bg.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/bs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ca.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/cs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/da.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/de.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/el.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/en_GB.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_AR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_BO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_CL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_CO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_CR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_DO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_EC.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_PE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_PY.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/es_VE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/et.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/eu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/fa.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/fi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/fo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/fr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/fr_CA.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/gl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/gu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/he.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/hr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/hu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/hy.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/id.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/it.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ja.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ka.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/kab.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/km.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ko.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/lo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/lt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/lv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/mk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/mn.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/my.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/nb.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ne.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/nl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/nl_BE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/pl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/pt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/pt_BR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ro.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/ru.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sq.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sr@latin.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/sv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/th.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/tr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/uk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/vi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/zh_CN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/i18n/zh_TW.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/digest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/helpdesk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/helpdesk_ticket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/res_partner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/models/res_users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/security/helpdesk_security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/description/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/description/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/src/css/portal_helpdesk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/src/js/helpdesk_dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/src/js/tour.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/src/scss/helpdesk.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/src/xml/helpdesk_team_templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/static/tests/helpdesk_dashboard_tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/tests/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/tests/test_helpdesk_flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/tests/test_helpdesk_sla.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/tests/test_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/assets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/digest_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/helpdesk_portal_templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/helpdesk_team_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/helpdesk_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/mail_activity_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk/views/res_partner_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/data/helpdesk_sale_timesheet_demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/af.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/am.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ar.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/bg.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/bs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ca.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/cs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/da.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/de.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/el.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/en_GB.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_AR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_BO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_CL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_CO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_CR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_DO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_EC.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_PE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_PY.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/es_VE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/et.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/eu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/fa.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/fi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/fo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/fr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/fr_CA.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/gl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/gu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/he.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/hr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/hu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/id.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/it.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ja.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ka.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/kab.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/km.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ko.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/lo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/lt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/lv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/mk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/mn.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/nb.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ne.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/nl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/nl_BE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/pl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/pt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/pt_BR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ro.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/ru.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sq.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sr@latin.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/sv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/th.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/tr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/uk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/vi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/zh_CN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/i18n/zh_TW.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/models/helpdesk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_sale_timesheet/views/helpdesk_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/af.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/am.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ar.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/bg.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/bs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ca.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/cs.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/da.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/de.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/el.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/en_GB.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_AR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_BO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_CL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_CO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_CR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_DO.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_EC.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_PE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_PY.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/es_VE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/et.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/eu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/fa.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/fi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/fo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/fr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/fr_CA.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/gl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/gu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/he.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/hr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/hu.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/id.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/it.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ja.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ka.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/kab.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/km.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ko.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/lo.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/lt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/lv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/mk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/mn.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/nb.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ne.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/nl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/nl_BE.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/pl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/pt.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/pt_BR.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ro.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/ru.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sl.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sq.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sr@latin.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/sv.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/th.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/tr.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/uk.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/vi.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/zh_CN.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/i18n/zh_TW.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/models/analytic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/models/helpdesk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/models/project.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/security/helpdesk_timesheet_security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/views/helpdesk_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/helpdesk_timesheet/views/project_views.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/data/common_data.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/data/payment_num_sequence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/data/task.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/access_token_app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/access_token_wechat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/charge_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/exception_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/helpdesk_ticket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/ir_attachment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/mail_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/pay_payment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/pay_refund.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/product_product.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_fault_phenomenon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_fault_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_node_history.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/repair_team.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_banner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_committee.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_community.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_point.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_police_station.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_region.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_shop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/res_users.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/sale_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/template_message.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/models/wechat_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/report/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/report/paper_format_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/security/work_order_security.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/static/description/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/static/src/css/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tests/test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/hashRing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/memcacheClient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/rule_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/bind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/json_import.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/lib/Sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/lib/WXBizMsgCrypt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/lib/ierror.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/lib/wxcrypt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/msg_template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/oauth2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/pay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/reply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/tools/weixin/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/exception_log_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/helpdesk_ticket_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/ir_attachment_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/pay_payment_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/pay_refund_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/product_product_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/product_property_template_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_fault_phenomenon_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_fault_type_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_group_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_node_history_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_node_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_order_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/repair_team_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_banner_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_committee_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_community_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_config_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_point_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_police_station_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_region_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_shop_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/res_users_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/views/wechat_user_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/repair_do_wizard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/repair_do_wizard_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/repair_flow_wizard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/repair_flow_wizard_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/res_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myaddons/work_order/wizard/res_config_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo.conf" beforeDir="false" afterPath="$PROJECT_DIR$/odoo.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_install.bat" beforeDir="false" afterPath="$PROJECT_DIR$/service_install.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_remove.bat" beforeDir="false" afterPath="$PROJECT_DIR$/service_remove.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.bat" beforeDir="false" afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_db.bat" beforeDir="false" afterPath="$PROJECT_DIR$/start_db.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_odoo.bat" beforeDir="false" afterPath="$PROJECT_DIR$/start_odoo.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop.bat" beforeDir="false" afterPath="$PROJECT_DIR$/stop.bat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/odoo13_x64_workorder$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1578633346412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myaddons/work_order/tests" />
+    <SUITE FILE_PATH="coverage/odoo13_x64_workorder$odoo_bin.coverage" NAME="odoo-bin Coverage Results" MODIFIED="1581307342798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+    <SUITE FILE_PATH="coverage/odoo14_x64_learning$odoo_bin.coverage" NAME="odoo-bin Coverage Results" MODIFIED="1581950519020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings />
+    <replaceStrings />
+    <dirStrings>
+      <dir>E:\tools\Odoo\odoo14-x64-learning\myaddons\helpdesk</dir>
+      <dir>E:\tools\Odoo\odoo14-x64-learning\myaddons\</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Y1trHCzwIkAq6LE2IWOqyjVcNk" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/runtime/python3" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\tools\Odoo\odoo14-x64-learning\myaddons\work_order\views" />
+      <recent name="E:\tools\Odoo\odoo14-x64-learning\myaddons\work_order\wizard" />
+      <recent name="E:\tools\Odoo\odoo14-x64-learning\myaddons\work_order\models" />
+      <recent name="E:\tools\Odoo\odoo14-x64-learning\myaddons\res_groups_configure\security" />
+      <recent name="E:\tools\Odoo\odoo14-x64-learning\myaddons\electricity\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="odoo-bin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="odoo14-x64-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="path" value="E:\tools\Odoo\odoo14-x64-learning\runtime\win64\wkhtmltopdf;E:\tools\Odoo\odoo14-x64-learning\runtime\win64\nodejs;E:\tools\Odoo\odoo14-x64-learning\runtime\pgsql\bin;" />
+      </envs>
+      <option name="SDK_HOME" value="E:\tools\Odoo\runtime\python3.7\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/odoo-bin" />
+      <option name="PARAMETERS" value="-c E:\tools\Odoo\odoo14-x64-learning\odoo.conf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="odoo14-x64-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="odoo14-x64-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myaddons/work_order/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myaddons/work_order/tests/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.odoo-bin" />
+      <item itemvalue="Python.test1" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.odoo-bin" />
+        <item itemvalue="Python.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="500a5bc5-2140-4194-81eb-e5b56ade9047" name="Default Changelist" comment="" />
+      <created>1572912293422</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572912293422</updated>
+      <workItem from="1572912294837" duration="1636000" />
+      <workItem from="1572918578961" duration="15720000" />
+      <workItem from="1572943870675" duration="382000" />
+      <workItem from="1572954201498" duration="31000" />
+      <workItem from="1573098031429" duration="3090000" />
+      <workItem from="1573813247594" duration="3103000" />
+      <workItem from="1573871585872" duration="194000" />
+      <workItem from="1573969515139" duration="17000" />
+      <workItem from="1574047360195" duration="14556000" />
+      <workItem from="1574127543134" duration="634000" />
+      <workItem from="1574139590162" duration="15082000" />
+      <workItem from="1574222553850" duration="1101000" />
+      <workItem from="1574238958962" duration="182000" />
+      <workItem from="1574337912486" duration="3656000" />
+      <workItem from="1574391530111" duration="669000" />
+      <workItem from="1574399070412" duration="1602000" />
+      <workItem from="1574483477683" duration="759000" />
+      <workItem from="1574516679130" duration="70000" />
+      <workItem from="1574759939410" duration="3026000" />
+      <workItem from="1574778351852" duration="619000" />
+      <workItem from="1574849836907" duration="2505000" />
+      <workItem from="1574861214332" duration="27000" />
+      <workItem from="1574863902149" duration="613000" />
+      <workItem from="1574905319162" duration="55000" />
+      <workItem from="1574922430515" duration="639000" />
+      <workItem from="1574991818149" duration="57000" />
+      <workItem from="1575017790130" duration="664000" />
+      <workItem from="1575101189759" duration="69000" />
+      <workItem from="1575257545723" duration="19535000" />
+      <workItem from="1575334532832" duration="27000" />
+      <workItem from="1575361899840" duration="3416000" />
+      <workItem from="1575429720127" duration="19841000" />
+      <workItem from="1575467703318" duration="3305000" />
+      <workItem from="1575512933277" duration="29175000" />
+      <workItem from="1575553450590" duration="80000" />
+      <workItem from="1575622569790" duration="5164000" />
+      <workItem from="1576033604497" duration="18160000" />
+      <workItem from="1576149393040" duration="135000" />
+      <workItem from="1576169491244" duration="6000" />
+      <workItem from="1576558209656" duration="17540000" />
+      <workItem from="1576642420728" duration="25366000" />
+      <workItem from="1576676819159" duration="15000" />
+      <workItem from="1576730439296" duration="13740000" />
+      <workItem from="1576838766785" duration="1491000" />
+      <workItem from="1576840859622" duration="297000" />
+      <workItem from="1576846759665" duration="1634000" />
+      <workItem from="1576926653871" duration="386000" />
+      <workItem from="1577069792209" duration="4038000" />
+      <workItem from="1577089953790" duration="2407000" />
+      <workItem from="1577092701384" duration="7000" />
+      <workItem from="1577096045751" duration="1231000" />
+      <workItem from="1577242048605" duration="872000" />
+      <workItem from="1577276838884" duration="1198000" />
+      <workItem from="1577331687575" duration="20260000" />
+      <workItem from="1577419635358" duration="8452000" />
+      <workItem from="1577437693052" duration="4666000" />
+      <workItem from="1577455012168" duration="5829000" />
+      <workItem from="1577578435131" duration="7011000" />
+      <workItem from="1577598666162" duration="2095000" />
+      <workItem from="1577621354539" duration="42000" />
+      <workItem from="1577693086286" duration="878000" />
+      <workItem from="1577766098243" duration="2150000" />
+      <workItem from="1577854473787" duration="787000" />
+      <workItem from="1578143345862" duration="1324000" />
+      <workItem from="1578280586929" duration="625000" />
+      <workItem from="1578363367929" duration="12000" />
+      <workItem from="1578368114862" duration="1798000" />
+      <workItem from="1578386337992" duration="1236000" />
+      <workItem from="1578396285658" duration="592000" />
+      <workItem from="1578457423074" duration="1886000" />
+      <workItem from="1578487293889" duration="1201000" />
+      <workItem from="1578494568368" duration="734000" />
+      <workItem from="1578537847941" duration="2548000" />
+      <workItem from="1578563864288" duration="6760000" />
+      <workItem from="1578630831031" duration="3851000" />
+      <workItem from="1578711643703" duration="171000" />
+      <workItem from="1578889248915" duration="4329000" />
+      <workItem from="1578976901403" duration="14631000" />
+      <workItem from="1579165767217" duration="8808000" />
+      <workItem from="1579221228346" duration="3068000" />
+      <workItem from="1579230549344" duration="3751000" />
+      <workItem from="1579431081787" duration="693000" />
+      <workItem from="1579514710657" duration="708000" />
+      <workItem from="1579519056178" duration="27000" />
+      <workItem from="1580623949177" duration="4414000" />
+      <workItem from="1580699160595" duration="14000" />
+      <workItem from="1580704161900" duration="6219000" />
+      <workItem from="1580875004552" duration="19361000" />
+      <workItem from="1580952168635" duration="5228000" />
+      <workItem from="1581052098404" duration="1843000" />
+      <workItem from="1581136242126" duration="4414000" />
+      <workItem from="1581216491218" duration="1232000" />
+      <workItem from="1581303382668" duration="1932000" />
+      <workItem from="1581331597930" duration="300000" />
+      <workItem from="1581331962370" duration="3576000" />
+      <workItem from="1581355611103" duration="649000" />
+      <workItem from="1581357699210" duration="42000" />
+      <workItem from="1581381793189" duration="15000" />
+      <workItem from="1581947942073" duration="2190000" />
+      <workItem from="1581950492823" duration="890000" />
+      <workItem from="1582122126209" duration="522000" />
+      <workItem from="1582122729842" duration="1455000" />
+      <workItem from="1582167341842" duration="45000" />
+      <workItem from="1582168034981" duration="1153000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目初始化">
+      <created>1572913557499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572913557499</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加服务台模块">
+      <created>1572942190245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572942190245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化模块">
+      <created>1574081898518</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574081898519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增基础资料模型及视图">
+      <created>1575288756857</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575288756857</updated>
+    </task>
+    <task id="LOCAL-00005" summary="开发基本资料和服务台接单、派单">
+      <created>1575548636065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575548636066</updated>
+    </task>
+    <task id="LOCAL-00006" summary="开发派单功能">
+      <created>1576060013277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576060013277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="开发转单功能">
+      <created>1576672895709</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576672895709</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新user相关的所有model">
+      <created>1576927010081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576927010081</updated>
+    </task>
+    <task id="LOCAL-00009" summary="修改区域、项目经理等">
+      <created>1577092356718</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1577092356718</updated>
+    </task>
+    <task id="LOCAL-00010" summary="修改工单处理流程">
+      <created>1577360682933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577360682933</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改工单处理流程">
+      <created>1577428041606</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577428041606</updated>
+    </task>
+    <task id="LOCAL-00012" summary="修改工单处理流程">
+      <created>1577600745176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577600745176</updated>
+    </task>
+    <task id="LOCAL-00013" summary="修改工单处理流程的bug">
+      <created>1578925959748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578925959748</updated>
+    </task>
+    <task id="LOCAL-00014" summary="API增加敏感信息加密">
+      <created>1579098194277</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579098194277</updated>
+    </task>
+    <task id="LOCAL-00015" summary="优化access token">
+      <created>1579262737003</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579262737003</updated>
+    </task>
+    <task id="LOCAL-00016" summary="开发图片上传功能">
+      <created>1581266184339</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581266184339</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目初始化" />
+    <MESSAGE value="添加服务台模块" />
+    <MESSAGE value="初始化模块" />
+    <MESSAGE value="新增基础资料模型及视图" />
+    <MESSAGE value="开发基本资料和服务台接单、派单" />
+    <MESSAGE value="开发派单功能" />
+    <MESSAGE value="开发转单功能" />
+    <MESSAGE value="更新user相关的所有model" />
+    <MESSAGE value="修改区域、项目经理等" />
+    <MESSAGE value="修改工单处理流程" />
+    <MESSAGE value="修改工单处理流程的bug" />
+    <MESSAGE value="API增加敏感信息加密" />
+    <MESSAGE value="优化access token" />
+    <MESSAGE value="开发图片上传功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="开发图片上传功能" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/odoo/modules/__init__.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/odoo14_x64_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1582123396139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

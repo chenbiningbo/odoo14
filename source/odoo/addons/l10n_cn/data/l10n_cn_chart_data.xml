@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--
+
+Copyright (C) 2019-now PS Cloud pscloud@inspur.com <small business chart>
+
+会计科目表模板( 小企业会计准则2017)
+
+-->
+    <data noupdate="1">
+        <record id="l10n_chart_china_small_business" model="account.chart.template">
+            <field name="name">小企业会计科目表（2017《小企业会计准则》）</field>
+            <field name="code_digits" eval="4"/>
+            <field name="currency_id" ref="base.CNY"/>
+            <field name="cash_account_code_prefix">1001</field>
+            <field name="bank_account_code_prefix">1002</field>
+            <field name="transfer_account_code_prefix">1012</field>
+            <field name="spoken_languages" eval="'en_US'"/>
+        </record>
+    </data>
+</odoo>
+
+

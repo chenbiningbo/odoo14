@@ -1,0 +1,14 @@
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask-restful
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask-httpauth
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask-cors
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple itsdangerous
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple xmltodict
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple html2text
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple qiniu
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple python-memcached
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple socketpool
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple gevent
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple rsa
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pycryptodome
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple crypto

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="product_template_tree_view" model="ir.ui.view">
+            <field name="name">product.template.tree.inherit.stock.account</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_tree_view"/>
+            <field name="arch" type="xml">
+                <field name="standard_price" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="view_category_property_form" model="ir.ui.view">
+            <field name="name">product.category.stock.property.form.inherit</field>
+            <field name="model">product.category</field>
+            <field name="inherit_id" ref="account.view_category_property_form"/>
+            <field name="arch" type="xml">
+                <group name="account_property" position="inside">
+                    <group name="account_stock_property" string="Account Stock Properties" groups="account.group_account_readonly">
+                        <field name="property_stock_account_input_categ_id" attrs="{'required':[ ('property_valuation', '=', 'real_time')]}" />
+                        <field name="property_stock_account_output_categ_id" attrs="{'required':[ ('property_valuation', '=', 'real_time')]}" />
+                        <field name="property_stock_valuation_account_id" options="{'no_create': True}" attrs="{'required':[ ('property_valuation', '=', 'real_time')]}"/>
+                        <field name="property_stock_journal" attrs="{'required':[ ('property_valuation', '=', 'real_time')]}" />
+                    </group>
+                </group>
+                <group name="account_property" position="before">
+                    <group>
+                        <group string="Inventory Valuation">
+                            <field name="property_cost_method"/>
+                            <field name="property_valuation" groups="account.group_account_readonly,stock.group_stock_manager"/>
+                        </group>
+                    </group>
+                </group>
+            </field>
+        </record>
+   </data>
+</odoo>
