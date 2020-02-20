@@ -3,7 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="500a5bc5-2140-4194-81eb-e5b56ade9047" name="Default Changelist" comment="优化access token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/nginx/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/nginx/logs/nginx.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/1247" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/1247" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/1249" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/1249" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/2609" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/2609" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/2610" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/base/359133/2610" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/global/config_exec_params" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/global/config_exec_params" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/global/pg_control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/pg_stat/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/pg_stat/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/pg_wal/0000000100000000000000B2" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/pg_wal/0000000100000000000000B2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/postmaster.opts" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/data/postmaster.opts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/data/postmaster.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/pgsql/logfile" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/pgsql/logfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,11 +47,12 @@
   </component>
   <component name="ProjectId" id="1Y1trHCzwIkAq6LE2IWOqyjVcNk" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/runtime/python3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,23 +75,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.odoo-bin">
     <configuration name="odoo-bin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="odoo14-x64-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="path" value="E:\tools\Odoo\odoo14-x64-learning\runtime\win64\wkhtmltopdf;E:\tools\Odoo\odoo14-x64-learning\runtime\win64\nodejs;E:\tools\Odoo\odoo14-x64-learning\runtime\pgsql\bin;" />
+        <env name="path" value="D:\project\odoo14-x64-learning\runtime\win64\wkhtmltopdf;D:\project\odoo14-x64-learning\runtime\win64\nodejs;D:\project\odoo14-x64-learning\runtime\pgsql\bin;" />
       </envs>
-      <option name="SDK_HOME" value="E:\tools\Odoo\runtime\python3.7\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/odoo-bin" />
-      <option name="PARAMETERS" value="-c E:\tools\Odoo\odoo14-x64-learning\odoo.conf" />
+      <option name="PARAMETERS" value="-c D:\project\odoo14-x64-learning\odoo.conf" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -138,8 +150,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.odoo-bin" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
@@ -258,7 +270,10 @@
       <workItem from="1582122729842" duration="1455000" />
       <workItem from="1582167341842" duration="45000" />
       <workItem from="1582168034981" duration="1153000" />
-      <workItem from="1582173292393" duration="684000" />
+      <workItem from="1582173292393" duration="5935000" />
+      <workItem from="1582181024592" duration="2207000" />
+      <workItem from="1582187703297" duration="8000" />
+      <workItem from="1582187882681" duration="100000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1572913557499</created>
@@ -372,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581266184339</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[README]:clean file content">
+      <created>1582174565903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582174565903</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -415,7 +437,8 @@
     <MESSAGE value="API增加敏感信息加密" />
     <MESSAGE value="优化access token" />
     <MESSAGE value="开发图片上传功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="开发图片上传功能" />
+    <MESSAGE value="[README]:clean file content" />
+    <option name="LAST_COMMIT_MESSAGE" value="[README]:clean file content" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,6 +452,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/odoo14_x64_learning$odoo_bin.coverage" NAME="odoo-bin Coverage Results" MODIFIED="1582182166951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source" />
     <SUITE FILE_PATH="coverage/odoo14_x64_learning$test.coverage" NAME="test Coverage Results" MODIFIED="1582123396139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
